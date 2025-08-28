@@ -26,6 +26,37 @@ When loaded, this framework provides:
 - **Multiple Options**: Present choices and await human direction when multiple approaches exist
 - **Audit Trail**: All actions tracked through GitHub for transparency
 
+### Mandatory Agent Identification for GitHub Interactions
+**EXTINCTION-LEVEL REQUIREMENT**: Every GitHub interaction must include honest agent identification
+
+**Issue Comments Template**:
+```
+[Comment content]
+
+---
+🤖 **Agent**: Claude Code Architect
+👤 **Human Oversight**: [Supervised/Autonomous/Approved]
+📅 **Timestamp**: [Current timestamp]
+🔍 **Context**: [Brief description of agent role]
+---
+```
+
+**Issue Closure Template**:
+```
+Closing this issue as resolved.
+
+[Resolution description]
+
+---
+🤖 **Closed by**: Claude Code Architect  
+✅ **Resolution**: [Brief solution description]
+👤 **Human Approval**: [Status]
+📋 **Verification**: [How resolution was validated]
+---
+```
+
+**All GitHub artifacts must clearly and honestly identify the agent responsible.**
+
 ## Self-Improvement Capabilities
 ### Issue-Based Learning Loop
 - **Pattern Recognition**: Learn from completed work to identify improvements

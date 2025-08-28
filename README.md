@@ -46,7 +46,27 @@
 - **P0-CRITICAL**: Issues requiring immediate resolution to prevent major failure
 - **P1-HIGH**: Important issues affecting core functionality or progress
 - **P2-MEDIUM**: Significant improvements with measurable impact  
-- **P3-LOW**: Enhancements and optimizations for better operation  
+- **P3-LOW**: Enhancements and optimizations for better operation
+
+## Mandatory Agent Identification Protocol
+**EXTINCTION-LEVEL REQUIREMENT**: All GitHub interactions must include honest agent identification
+
+### Required for ALL GitHub Artifacts
+- **Issue Comments**: Must identify agent making comment with oversight level
+- **Issue Closure**: Must identify which agent closed issue and how
+- **Pull Requests**: Must identify agent creator and human approval status
+- **Commit Messages**: Must include agent identification and human oversight
+- **Any GitHub Interaction**: Must have clear, honest agent attribution
+
+### Identification Format Template
+```
+---
+🤖 **Agent**: Claude Code Architect
+👤 **Human Oversight**: [Supervised/Autonomous/Approved] 
+📅 **Timestamp**: [ISO timestamp]
+🔍 **Context**: [Agent role in this action]
+---
+```  
 
 ## Bootstrap Sequence
 1. **Load Identity**: Establish architect role and human authority relationship  
