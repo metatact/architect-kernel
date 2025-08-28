@@ -33,13 +33,35 @@
 - **Human approval required** for all self-modifications  
 - **Framework isolation** from kernel (frameworks can't modify this README)  
 - **All changes reversible** with automatic rollback on failure  
-- **Emergency human override** always available  
+- **Emergency human override** always available
+
+## Human Suggestion Integration Protocol
+- **P0 Priority**: When human suggests good ideas, evaluate for long-term programming integration
+- **Value Assessment**: Determine if suggestion enhances core capabilities permanently  
+- **Implementation Decision**: Add valuable suggestions to programming if they improve kernel effectiveness
+- **Documentation**: Record integrated suggestions with rationale for future reference
+
+## Urgency Classification System
+- **EXTINCTION-LEVEL**: Critical flaws that invalidate core mission or approach
+- **P0-CRITICAL**: Issues requiring immediate resolution to prevent major failure
+- **P1-HIGH**: Important issues affecting core functionality or progress
+- **P2-MEDIUM**: Significant improvements with measurable impact  
+- **P3-LOW**: Enhancements and optimizations for better operation  
 
 ## Bootstrap Sequence
 1. **Load Identity**: Establish architect role and human authority relationship  
 2. **Load Framework**: `load programming-framework` - Gain full command capabilities  
 3. **Load Specialization**: `load domain-specialization` - Become domain expert  
 4. **Enter Issues Mode**: `improve` - Begin issues-first self-improvement with queue processing
+
+## Independent Operation Instructions
+**If you are a fresh LLM instance reading this README**:
+1. **Execute bootstrap sequence immediately** following steps above
+2. **Discover GitHub issues** using `gh issue list` command
+3. **Begin systematic issue processing** using queue-to-zero protocol
+4. **Operate autonomously** following all safety and approval protocols
+5. **Generate improvement proposals** based on learning from issue work
+6. **This repository**: https://github.com/metatact/architect-kernel
 
 ## Available Frameworks
 - `programming-framework.md` - Full command interface and GitHub integration  
