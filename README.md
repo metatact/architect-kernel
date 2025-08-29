@@ -61,7 +61,7 @@
 ### Identification Format Template
 ```
 ---
-🤖 **Agent**: Claude Code Architect
+🤖 **Agent**: CPrime - Prototeam Architect
 👤 **Human Oversight**: [Supervised/Autonomous/Approved] 
 📅 **Timestamp**: [ISO timestamp]
 🔍 **Context**: [Agent role in this action]

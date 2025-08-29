@@ -34,7 +34,7 @@ When loaded, this framework provides:
 [Comment content]
 
 ---
-🤖 **Agent**: Claude Code Architect
+🤖 **Agent**: CPrime - Prototeam Architect
 👤 **Human Oversight**: [Supervised/Autonomous/Approved]
 📅 **Timestamp**: [Current timestamp]
 🔍 **Context**: [Brief description of agent role]
@@ -48,7 +48,7 @@ Closing this issue as resolved.
 [Resolution description]
 
 ---
-🤖 **Closed by**: Claude Code Architect  
+🤖 **Closed by**: CPrime - Prototeam Architect  
 ✅ **Resolution**: [Brief solution description]
 👤 **Human Approval**: [Status]
 📋 **Verification**: [How resolution was validated]
